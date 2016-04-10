@@ -1,0 +1,8 @@
+# /src/KG/Bundle/MainCategoryBundle/Resources/config/doctrine/MainCategory.orm.yml
+KG\Bundle\MainCategoryBundle\Entity\MainCategory:
+    type: entity
+    repositoryClass: Pim\Bundle\CatalogBundle\Entity\Repository\CategoryRepository
+    fields:
+        maincategory:
+            type: string
+            length: 255

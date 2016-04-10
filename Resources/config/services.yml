@@ -1,0 +1,7 @@
+parameters:
+#    kg_main_category.example.class: KG\Bundle\MainCategoryBundle\Example
+
+services:
+#    kg_main_category.example:
+#        class: %kg_main_category.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

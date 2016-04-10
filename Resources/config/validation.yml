@@ -1,0 +1,5 @@
+# /src/KG/Bundle/MainCategoryBundle/Resources/config/validation.yml
+KG\Bundle\MainCategoryBundle\Entity\MyCategory:
+    properties:
+        maincategory:
+            - NotBlank: ~
